@@ -20,16 +20,16 @@ tags:   GitHub Jekyll 博客
 主要是这第3步让我做了一遍又了遍，不是因为它难，只是因为我不懂。
 
 * 将你的仓库克隆到本地
-```shell
+``` shell
 git clone https://github.com/username/username.github.io
 ```
 * 应用Jekyll
-```shell
+``` shell
 cd username.github.io
 jekyll new ./
 ```
 * 上传
-```shell
+``` shell
 git add --all
 git commit -m "Initial commit"
 git push -u origin master
