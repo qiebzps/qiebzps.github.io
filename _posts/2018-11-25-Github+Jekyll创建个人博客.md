@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Github+Jekyll创建个人博客"
+title:  "GitHub+Jekyll创建个人博客"
 date:   2018-11-25 19:49:00 +0800
+tags:   GitHub Jekyll 博客
 ---
 折腾了好半天，现在记录一下。我自己的机器是Ubuntu，所以请在Linux环境下尝试以下步骤。
 1. 在[GitHub][github]上创建一个[GitHub Pages][github_pages]
