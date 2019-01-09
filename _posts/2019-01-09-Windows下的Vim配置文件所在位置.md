@@ -9,4 +9,10 @@ tags: Vim Windows
 
 ![Windows下的Vim配置文件所在位置01.png][01]
 
+如何查看环境变量```$HOME```，在命令行中执行以下命令，```set```的用法可以用```set/?```查看
+
+```powershell
+set HOME
+```
+
 [01]:{{site.url}}/images/Windows下的Vim配置文件所在位置01.png
