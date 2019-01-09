@@ -1,7 +1,7 @@
 ---
 layout : post
 title : "Windows下的Vim配置文件所在位置"
-date : 2019-01-09 17:34:00 +0800
+date : 2019-01-09 23:40:00 +0800
 tags: Vim Windows
 ---
 
