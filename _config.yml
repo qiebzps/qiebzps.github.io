@@ -25,7 +25,7 @@ defaults:
       layout: "post"
 
 #### Pagination
-paginate: 5 
+paginate: 4 
 
 #### Site
 title : 张鹏帅的博客
