@@ -9,15 +9,13 @@ tags:   Linux Flameshot
         点不是特别好用，不能在截图上添加文字。不过相对来说这个截图工具已经
         很趁手了，所有记录一下安装和使用的过程。名叫Flameshot。
 
-1.安装Flameshot 
-
+1. 安装Flameshot 
     ```
     sudo apt-get install flameshot
     ```
 
 2. 这就算是安装好了，可以再设置一个快捷键来实现快速调用，我设置的是快捷键是
         <F1>,在填写命令的时候写flameshot gui
-        
 ![Linux上的截图工具Flameshot01.png][01]
 
 
