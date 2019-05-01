@@ -16,6 +16,7 @@ tags:   Linux Flameshot
 
 2. 这就算是安装好了，可以再设置一个快捷键来实现快速调用，我设置的是快捷键是
         <F1>,在填写命令的时候写flameshot gui
+
 ![Linux上的截图工具Flameshot01.png][01]
 
 
