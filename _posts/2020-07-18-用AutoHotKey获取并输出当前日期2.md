@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2020-07-18-用AutoHotKey获取并输出当前日期"
-date:   2019-05-11 22:45:53 +0800
+date:   2020-07-18 03:41:11 +0800
 tags:   Windows FTP 
 ---
 
@@ -23,7 +23,7 @@ return
 传递给剪切板，直接Ctrl-v粘贴出来，就没有那么多异常了。
 
 参考文章：
-1. [AutoHotKey/|/|AHK/|/|获取当前日期时间][01]
+1. [AutoHotKey\|\|AHK\|\|获取当前日期时间][01]
 2. [请问下AHK如何复制文件到剪切板呢？][02]
 
 [01]:https://blog.csdn.net/The_Time_Runner/article/details/84317066
