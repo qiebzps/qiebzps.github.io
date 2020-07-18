@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "用AutoHotKey获取并输出当前日期"
-date:   2020-07-18  10:29:52 +0800
+date:   2020-07-18 10:29:52 +0800
 tags:   AHK
 ---
 
