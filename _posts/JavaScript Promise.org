@@ -1,0 +1,95 @@
+#+title: JavaScript Promise
+#+author: 张鹏帅
+#+date: 2020-11-13
+
+* 执行f1,f2,f3,输出f3,f2,f1
+#+begin_src js
+f1();
+f2();
+f3();
+			
+function f1(){
+	setTimeout(() => {
+		console.log("f1");
+	}, 1500);
+}
+function f2(){
+	setTimeout(() => {
+		console.log("f2");
+	}, 1000);
+}
+function f3(){
+	setTimeout(() => {
+		console.log("f3");
+	}, 500);
+}
+#+end_src
+
+#+RESULTS:
+: undefinedf3
+: f2
+: f1
+
+* 期望输出f1,f2,f3,改写三个函数
+#+begin_src js
+f1();
+// f2();
+// f3();
+			
+function f1(){
+	setTimeout(() => {
+		console.log("f1");
+		f2();
+	}, 1500);
+}
+function f2(){
+	setTimeout(() => {
+		console.log("f2");
+		f3();
+	}, 1000);
+}
+function f3(){
+	setTimeout(() => {
+		console.log("f3");
+	}, 500);
+}
+#+end_src
+
+#+RESULTS:
+: undefinedf1
+: f2
+: f3
+
+* 用Promise对象改写三个函数
+#+begin_src js
+var promiseF1 = new Promise(function(resolve,reject){
+	setTimeout(() => {
+		console.log("f1");
+		resolve(true);
+	}, 1500);
+});
+			
+			
+promiseF1
+.then(function(value){
+	return new Promise(function(resolve,reject){
+		setTimeout(() => {
+			console.log("f2");
+			resolve(true);
+		}, 1000);
+	})
+})
+.then(function(value){
+		setTimeout(() => {
+			console.log("f3");
+		}, 500);
+})
+#+end_src
+
+#+RESULTS:
+: undefinedf1
+: f2
+: f3
+
+怎么没看出来Promise对象好用在哪?
+反而代码写的更多了?咋回事,如果你知道请告诉我,多谢!
