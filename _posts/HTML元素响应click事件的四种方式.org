@@ -1,0 +1,18 @@
+* HTML元素响应click事件的四种方式
+** HTML 事件属性
+#+begin_src html
+<div onclick=""...
+#+end_src
+** HTML DOM
+#+begin_src js
+document.getElementById('id').onclick=...
+#+end_src
+** DOM 事件监听
+#+begin_src js
+document.getElementByID('id').addEventListener('click',...)
+//removeEventListener()删除事件监听器
+#+end_src
+** UniApp
+#+begin_src js
+<div @click="..."...
+#+end_src
