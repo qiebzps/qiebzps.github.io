@@ -1,0 +1,26 @@
+#+title: JavaScript类
+#+author: 张鹏帅
+#+date: 2020-11-18
+
+类是用于创建对象的模板.
+
+** 定义类的几种方式
+
+*** 类声明:class关键字
+#+begin_src js
+class Person{
+    name;
+    age;
+    constructor(name,age){
+        this.name = name;
+        this.age = age;
+    }
+}
+        
+var p1 = new Person("xiaoming",23);
+var p2 = new Person();
+console.log(p1.name);
+console.log(p2.name);
+#+end_src
+
+*** TODO 类表达式

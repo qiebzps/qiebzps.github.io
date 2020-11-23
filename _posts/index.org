@@ -1,0 +1,10 @@
+* post
+** [[file:Uniapp开发出的软件如何做更新.org][Uniapp开发出的软件如何做更新]]
+** [[file:进程,线程傻傻分不清.org][进程,线程傻傻分不清]]
+** [[file:并发,并行傻傻分不清.org][并发,并行傻傻分不清]]
+* draft
+** TODO [[file:环境变量.org][环境变量]]
+** TODO [[file:plsql程序设计_学习笔记.org][plsql程序设计_学习笔记]]
+** TODO [[file:常用网络命令.org][常用网络命令]]
+** TODO [[file:oracle.org][oracle]]
+** TODO 

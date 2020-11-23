@@ -1,0 +1,1 @@
+rm articleList.htm && ls *.html -1 | while read line; do echo \<div\>\<a href=\"$line\"\>$line\<\/a\>\<\/div\> >> articleList\.htm; done

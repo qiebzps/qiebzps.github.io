@@ -1,0 +1,25 @@
+#+title: JavaScript严格模式
+#+author: 张鹏帅
+#+date: 2020-11-18
+
+* 什么是严格模式?
+与正常模式(又叫:sloppy mode,马虎模式,稀松模式,懒散模式)相对,这种严格模式改变了正常模式的
+语义.
+
+对小马虎作出了限制,使其不能马虎,不然就报错.
+
+* 如何使用严格模式?
+
+  - 整个脚本:在所有语句之前放一个
+    ~"use strict"~
+  - 个别函数:在函数体所有语句之前放一个
+    ~"use strict"~
+* 启动严格模式后的什么变化?
+1. 使用变量前需要定义
+2. 不允许删除变量(函数,对象)
+3. 不允许函数重复参数名
+4. 在类似f1()的函数调用中,this的值是全局对像.在严格模式下是undefined.
+5. ...
+* 参考
+1. [[https://www.w3school.com.cn/js/js_strict.asp][W3school-JavaScript Use Strict]]
+2. [[https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode][MDN-严格模式]]

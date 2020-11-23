@@ -1,0 +1,25 @@
+#+title: Uniapp开发出的软件如何做更新
+#+author: 张鹏帅
+#+date: 2020-11-19
+
+突然想要了解了下版本更新是如何做的,遂蜻蜓点水也.
+
+* 判断是否需要更新
+  即是否发布了新版本
+
+* 下载下来(或者直接读取网络地址)
+  - uni.downloadFile()可以将网络上的资源下载至本地.
+  - plus.runtime.openURL()直接读取网络地址
+
+  反正这一步的目的是获得一下更新文件的地址.
+
+* 打开(安装)
+  - plus.runtime.openURL()直接读取网络地址
+  - plus.runtime.install()读取本地下载的地址
+
+
+* 参考
+1. [[https://uniapp.dcloud.net.cn/api/request/network-file?id=downloadfile][uni-app uni.downloadFile(OBJECT)]]
+2. [[https://ask.dcloud.net.cn/article/35667][uni-app 资源在线升级/热更新]]
+3. [[https://ask.dcloud.net.cn/article/34972][uni-app 整包升级/更新方案]]
+4. [[http://www.html5plus.org/doc/zh_cn/runtime.html#plus.runtime.openURL][5+规范-runtime]]
