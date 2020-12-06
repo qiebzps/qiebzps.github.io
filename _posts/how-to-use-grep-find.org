@@ -1,7 +1,0 @@
-#+title:如何使用grep和find查找
-#+author:张鹏帅
-#+date:2020-11-06
-
-* grep
-
-* find
